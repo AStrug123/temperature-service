@@ -38,7 +38,7 @@ This repository contains a Spring Boot application that is containerized using D
    
    to:
    - "yourPath/example_file.csv:/app/example_file.csv"
-   - 
+
 # Getting Started
 
 ## 1. Set Up Java 17 with jenv (Optional but Recommended)
@@ -131,7 +131,7 @@ mvn test
 
 ## API Endpoints
 
-### Allocate Rooms
+### Temperature endpoints
 
 - **URL:** `/v1/temperatures/{city}`
 - **Method:** `GET`
