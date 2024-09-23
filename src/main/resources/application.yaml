@@ -1,0 +1,15 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  cache:
+    type: caffeine
+    caffeine:
+      spec: expireAfterWrite=10m,maximumSize=100
+  task:
+    scheduling:
+      pool:
+        size: 10
+
+temperature:
+  csv:
+    file: ${TEMPERATURE_CSV_FILE:file:./example_file.csv}

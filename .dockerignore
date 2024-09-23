@@ -1,0 +1,6 @@
+target/
+!target/*.jar
+.git
+.gitignore
+README.md
+example_file.csv
